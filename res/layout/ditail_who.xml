@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:id="@+id/tab2Layout"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+
+    <TextView android:text="Организация:"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:typeface="sans"
+
+            />
+    <TextView android:id="@+id/org3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:typeface="sans"
+              android:textSize="16sp"
+              android:textStyle="bold"
+
+            />
+
+    <TextView android:text="Руководитель:"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:typeface="sans"
+
+            />
+    <TextView android:id="@+id/person2"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:textSize="16sp"
+            />
+</LinearLayout>

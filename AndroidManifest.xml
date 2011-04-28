@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="info.rospil"
+      android:versionCode="2"
+
+      android:versionName="1.1">
+    <application android:label="rospil" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:name="info.rospil.view.PilsListView"
+                  android:theme="@android:style/Theme.Light"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name="info.rospil.view.PilsListView" android:theme="@android:style/Theme.Light" android:label="@string/app_name">-->
+
+
+        <!--</activity>-->
+        <activity android:name="info.rospil.view.DetailView" android:theme="@android:style/Theme.Light" android:label="@string/app_name"/>
+        <activity android:name="info.rospil.view.CommentsView" android:theme="@android:style/Theme.Light" android:label="@string/app_name"/>
+        <activity android:name="info.rospil.view.SettingsView" android:theme="@android:style/Theme.Light" android:label="Настройки"/>
+        <activity android:name="info.rospil.view.PostComment" android:theme="@android:style/Theme.Light" android:label="Добавить комментарий"/>
+
+    </application>
+        <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="8"/>
+</manifest> 
